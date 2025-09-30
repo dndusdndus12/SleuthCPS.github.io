@@ -11,7 +11,7 @@ This repository contains the source code for the official website of the **Sleut
 
 The website is hosted using GitHub Pages and is available at:
 
-**[https://sleuthcps.github.io/](https://sleuthcps.github.io/)**
+**[https://sleuthcps.ai/](https://sleuthcps.ai/)**
 
 ## About The Project
 
