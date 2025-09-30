@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities - SleuthCPS 2025</title>
+    <link rel="stylesheet" href="styles/challenge.css">
+    <link rel="stylesheet" href="styles/activities.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 data-text="SleuthCPS 2025"><a href="index.html"> SleuthCPS 2025</a></h1>
+            <p class="subtitle">The Troubled Elevator</p>
+        </header>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="activities.html" class="current">Activities</a></li>
+                <li><a href="challenge.html">Challenge</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQXtRobPt-3xDI5joh7Z0OVgmVwtplsbmv4jljZsvhqGiifQ/viewform?usp=dialog">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="curriculum-details">
+                <h2 class="blinking-cursor">Curriculum & Activities</h2>
+                <p>
+                    Our 5-day program is a blend of foundational lectures and intensive, hands-on labs. Below is a day-by-day breakdown of the topics and activities you will engage in. Click on each day to see the details.
+                </p>
+
+                <div class="accordion-controls">
+                    <button id="toggle-all-btn" class="btn btn-material">Expand All</button>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Day 1: Intro to ICS / SCADA</button>
+                        <div class="accordion-content">
+                            <p><strong>Topics:</strong> Introduction to PLC programming fundamentals, lab environment setup, and common industrial protocols.</p>
+                            <a href="downloads/day1_materials.zip" class="btn btn-material">Download Day 1 Materials</a>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">Day 2: ICS Protocols and Attacks</button>
+                        <div class="accordion-content">
+                            <p><strong>Topics:</strong> A detailed look into PLC operations, common attack vectors, and the manipulation of control logic.</p>
+                            <a href="downloads/day2_materials.zip" class="btn btn-material">Download Day 2 Materials</a>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">Day 3: Network Traffic Analysis</button>
+                        <div class="accordion-content">
+                            <p><strong>Topics:</strong> Forensic analysis of ICS protocols (from Modbus to UMAS) using Wireshark.</p>
+                            <p><strong>Hands-On:</strong> Analyze sample PCAP files and import a custom LUA plugin into Wireshark for UMAS protocol dissection.</p>
+                            <a href="downloads/day3_materials.zip" class="btn btn-material">Download Day 3 Materials</a>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">Day 4: Memory Forensics</button>
+                        <div class="accordion-content">
+                             <p><strong>Topics:</strong> Discovering and analyzing forensic artifacts found within PLC memory.</p>
+                             <p><strong>Hands-On:</strong> Analyze a sample PLC memory dump. Practice carving a hidden zip file with Binwalk, using a Python script to extract data, and attempting to decompile logic.</p>
+                             <a href="downloads/day4_materials.zip" class="btn btn-material">Download Day 4 Materials</a>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">Day 5: The Final Challenge</button>
+                        <div class="accordion-content">
+                            <p><strong>Topics:</strong> Introduction to the final SleuthCPS challenge scenario and rules of engagement.</p>
+                            <p>All necessary files for the final challenge can be downloaded from the GitHub repository.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 SleuthCPS. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts/challenge.js"></script>
+    <script src="scripts/activities.js"></script>
+</body>
+</html>

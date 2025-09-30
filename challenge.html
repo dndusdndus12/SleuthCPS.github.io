@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleuthCPS 2025: The Troubled Elevator</title>
+    <link rel="stylesheet" href="styles/challenge.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 data-text="SleuthCPS 2025"><a href="index.html"> SleuthCPS 2025</a></h1>
+            <p class="subtitle">The Troubled Elevator</p>
+        </header>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="challenge.html" class="current">Challenge</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQXtRobPt-3xDI5joh7Z0OVgmVwtplsbmv4jljZsvhqGiifQ/viewform?usp=dialog">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="image-container">
+                <img src="images/challenge.jpg" alt="Main Image at Challenge" class="responsive-image">
+            </div>
+
+            
+
+            <section id="scenario">
+                <h2 class="blinking-cursor">Final Challenge Scenario</h2>
+                <p>
+                    A critical malfunction has been reported in the central elevator system of a smart building. The elevator has been stopping between floors and operating with erratic door behavior, posing a significant safety risk. Initial diagnostics suggest its PLC was remotely manipulated.
+                </p>
+
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/UfCryWEGvAc?si=4OFsPVnW_kN16LFM" 
+                        title="Elevator Incident Highlight" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p>
+                    Your mission is to analyze the two primary pieces of evidence: a full memory dump from the elevator's PLC and a network packet capture (PCAP) file from the time of the incident. You must use these artifacts to identify the attacker's actions and find the final flag.
+                </p>
+            </section>
+
+            <section id="links">
+                <h2>Challenge Files & Submission</h2>
+                <div class="button-group">
+                    <a href="https://github.com/dfrws/dfrws2023-challenge" target="_blank" class="btn btn-github">
+                        <span>Download Challenge Files (GitHub)</span>
+                    </a>
+                    <a href="https://forms.gle/xwf6WatWxyX7Mud36" target="_blank" class="btn btn-submit">
+                        <span>Submit Answer (Google Form)</span>
+                    </a>
+                </div>
+                <p class="note">
+                    * All challenge files can be downloaded from the official GitHub repository.<br>
+                    * Once you have found the final flag, please submit it via the Google Form.
+                </p>
+            </section>
+
+            <section id="questions">
+                <h2>Have Questions?</h2>
+                <p>Please feel free to contact us with any questions or inquiries.</p>
+                <p class="contact-email">
+                    <a href="mailto:sleuthCPS@vcu.edu">sleuthCPS@vcu.edu</a>
+                </p>
+            </section>
+        </main>
+
+
+        <footer>
+            <p>&copy; 2025 SleuthCPS. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts/challenge.js"></script>
+</body>
+</html>
