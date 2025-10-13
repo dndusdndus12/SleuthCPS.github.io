@@ -48,12 +48,26 @@ header {
     padding-bottom: 20px;
 }
 
+
 header h1 {
     font-family: var(--header-font);
     font-size: 2.5em;
     color: var(--primary-color);
     margin-bottom: 10px;
     text-shadow: 0 0 5px rgba(0, 168, 255, 0.5);
+}
+/* --- Header Logo & Title Alignment --- */
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    height: 50px; /* 로고 크기 조절 */
+    width: auto;
+    margin-right: 15px; /* 로고와 타이틀 사이 간격 */
 }
 
 header .subtitle {
