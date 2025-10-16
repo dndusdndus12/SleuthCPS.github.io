@@ -19,6 +19,12 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
+/* This targets the 'a' tag that is now our card */
+a.team-card {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Resets the text color to not be blue */
+    display: block; /* Ensures the link behaves like a block container */
+}
 
 .member-name {
     font-size: 1.4em;
